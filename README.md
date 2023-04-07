@@ -1,2 +1,2 @@
-# dominion-card-game
-Core dominion game
+# Dominion Card Game
+Core game for dominion tabletop game
