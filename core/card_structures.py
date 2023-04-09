@@ -1,16 +1,17 @@
-class Card:
+class Card():
     pass
 
-
-class Action:
-    def on_play(self):
-        pass
+class Action():
     pass
 
-
-class Treasure:
+class Treasure():
     pass
-
 
 class Victory:
+    pass
+
+class Reaction():
+    pass
+
+class Attack():
     pass

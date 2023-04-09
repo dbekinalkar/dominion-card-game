@@ -1,4 +1,11 @@
+from random import shuffle
+
 class Player:
+    def __init__(self) -> None:
+        self.deck = Deck()
+        self.hand = Hand()
+        self.discard = Deck()
+        pass
     pass
 
 
@@ -10,7 +17,19 @@ class Pile:
     pass
 
 
-class Deck(Pile):
+class Deck(list):
+    
+    def shuffle(self):
+        self.cards = shuffle(self.cards)
+
+    def pop(self):
+        return self.cards.pop()
+    
+    def topdeck(self, card):
+        self.cards.append(card)
+        
+    def draw(self, player, num):
+        pass
     pass
 
 
@@ -20,7 +39,6 @@ class Battlefield:
 
 class Hand:
     pass
-
 
 class Supply:
     pass
