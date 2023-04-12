@@ -5,12 +5,13 @@ class Player:
         self.deck = Deck()
         self.hand = Hand()
         self.discard = Deck()
-        pass
-    pass
+
+        self.turn = None
 
 
 class Turn:
-    pass
+    def __init__(self):
+        self.player = None
 
 
 class Pile:
