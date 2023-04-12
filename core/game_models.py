@@ -9,6 +9,9 @@ class Player:
 
         self.turn = None
 
+    def draw_card(self):
+        pass
+
 
 class Turn:
     def __init__(self, player=None):
